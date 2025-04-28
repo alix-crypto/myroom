@@ -13,7 +13,7 @@ proxy-providers:
     health-check:       # 节点健康检查（检测可用性）
       enable: true
       url: https://www.gstatic.com/generate_204
-      interval: 300     # 每5分钟测速一次
+      interval: 21600    # 每360分钟测速一次
     proxy: 直连          # 拉取订阅时走直连，不经过代理
 
 # ✨ 本地自定义节点（proxies）
@@ -238,7 +238,6 @@ proxy-groups:
 
 # 规则匹配
 rules:
-  - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
   - RULE-SET,private_domain,直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 默认代理
@@ -293,7 +292,7 @@ rule-providers:
 
   proxylite:
     <<: *class
-    url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"
+    url: "https://raw.githubusercontent.com/alix-crypto/myroom/refs/heads/main/proxy.list"
 
   ai:
     <<: *domain
@@ -345,7 +344,7 @@ rule-providers:
 
   apple_domain:
     <<: *domain
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple-cn.mrs"
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple@cn.mrs"
 
   speedtest_domain:
     <<: *domain
