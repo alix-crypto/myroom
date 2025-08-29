@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,180611.xyz
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
 
+IP-CIDR,45.67.223.188,no-resolve
+
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
