@@ -9,10 +9,18 @@ DOMAIN-SUFFIX,180611.xyz
 DOMAIN-SUFFIX,606696.xyz
 DOMAIN-SUFFIX,hostdare.com
 DOMAIN-SUFFIX,v2rayssr.com
+DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,lowendtalk.com
+DOMAIN-SUFFIX,dedirock.com
+DOMAIN-SUFFIX,dmit.io
+DOMAIN-SUFFIX,racknerd.com
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,digitalplat.org
+DOMAIN-SUFFIX,ptchdbits.co
+DOMAIN-SUFFIX,cloudflare.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
-
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
