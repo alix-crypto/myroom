@@ -4,3 +4,4 @@
 # DOMAIN-SUFFIX,push.apple.com
 # DOMAIN-SUFFIX,+.i234.me
 DOMAIN-SUFFIX,gwvpsceping.com
+IP-CIDR,220.130.197.210/32,no-resolve
